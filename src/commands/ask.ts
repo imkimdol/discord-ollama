@@ -41,7 +41,6 @@ module.exports = {
             reply.edit(partial);
         } catch (err) {
             console.error(err);
-            interaction.editReply('Encountered an issue.');
         }
     },
 };
