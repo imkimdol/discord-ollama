@@ -1,0 +1,23 @@
+{
+  "name": "discord-ollama",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "imkimdol <kimdol@proton.me>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "glob": "^10.3.10",
+    "ollama": "^0.5.12"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "deploy": "node dist/scripts/deployCommands.js",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.3",
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.3"
+  }
+}
